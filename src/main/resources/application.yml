@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-security-oauth2-demo
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: <<$client id here>>
+            clientSecret: <<$secret key here>>
